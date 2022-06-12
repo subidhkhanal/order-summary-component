@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!--  <style>-->
+<!--    .attribution { font-size: 11px; text-align: center; }-->
+<!--    .attribution a { color: hsl(228, 45%, 44%); }-->
+<!--  </style>-->
+</head>
+<body class="p-3.5 bg-slate-400" style="background-image: url('/images/pattern-background-desktop.svg')">
+    <div class="bg-white rounded-xl pb-5 xl:w-[450px] xl:mx-auto">
+      <img class="rounded-tl-xl rounded-tr-xl w-full" src="/images/illustration-hero.svg" alt="illustration-hero"/>
+      <article class="">
+        <h1 class="pl-32 pt-10 pb-5 text-2xl font-bold">Order Summary</h1>
+        <p class="pl-24 pr-10 pb-5">You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!</p>
+      </article>
+      <article class="pl-20 pr-10">
+        <UL class="pt-3 pb-3 flex justify-around rounded-xl bg-slate-100">
+          <li class="flex"> <img class="pr-3" src="/images/icon-music.svg" alt="icon-music"/>Annual Plan <br class="text-stone-900">$59.99/year</li>
+          <li class="pl-20 pt-3"><a href="#" class="underline font-semibold hover:delay-100 hover:text-blue-900 hover:no-underline">Change </a></li>
+          </UL>
+      </article>
+      <article class="pl-20 pr-10 pt-10">
+        <UL class="pt-3 pb-3 flex justify-around rounded-xl bg-blue-700 hover:bg-neutral-600  hover:duration-200 hover:cursor-pointer">
+          <li class="text-white font-semibold"> Proceed to Payment </li>
+        </UL>
+      </article>
+      <div class="pb-4 flex flex-col items-center">
+          <span class="pt-2 font-semibold  hover:cursor-pointer">
+            <a href="#" class="text-neutral-500 hover:text-neutral-700 hover:delay-100">
+              Cancel Order</a>
+          </span>
+      </div>
+    </div>
+</body>
+</html>
